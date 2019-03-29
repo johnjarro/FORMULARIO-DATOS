@@ -1,0 +1,285 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+  	<title>Registrar Usuario</title>
+  	<meta charset="utf-">
+   <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   			<script src=""></script>
+				
+  </head>
+  <body>
+
+  <br>
+
+  <div class="row">
+    <div class=" col-2"></div>
+
+    <div class=" col-7">
+      <div href="#" class="card">
+
+        <div class="card-header text-center">
+              <h4>FORMULARIO DATOS PERSONALES</h4>
+          </div>
+      
+       <div class="card-block">
+       
+    
+  <form class="form-" name="usvertical uario" action="crearUsuario.html" method="post"  onsubmit=" return validarFormulario2()">
+  <fieldset>
+
+   <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-0 control-label" for="textinput">Tipo Documento:</span></li><select name=""> 
+    <option>Cedula de ciudadania</option>
+
+<option>Registro Civil</option>
+
+<option>Tarjeta de identidad</option>
+
+</select
+
+
+    <input id="identificacion" name="identificacion" style="border-color: #25acf9;" type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();">
+       <div name="text0" id="text0" style="color: red;"
+       ></div>
+      
+    
+  </div>
+
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="textinput">Numero Documento</label>  
+    
+    <input id="numero" name="numero"    style="border-color: #25acf9;"type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();"><div name="text1" id="text1" style="color: red;"></div>
+
+    
+  </div>
+
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="textinput">Nombres:</label>  
+    
+    <input id="apellido" name="apellido"   style="border-color: #25acf9;" type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();" >
+        <div name="text2" id="text2" style="color: red;"></div> 
+    
+  </div>
+</div>
+
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="textinput">Apellidos:</label>  
+    
+    <input id="nombre" name="nombre"    style="border-color: #25acf9;"type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();">
+        <div name="text1" id="text1" style="color: red;"></div> 
+    
+  </div>
+</div>
+
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="textinput">Fecha de Nacimiento:</label>  
+    
+    <input id="nombre" name="nombre"    style="border-color: #25acf9;"type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();">
+        <div name="text1" id="text1" style="color: red;" height: 34px;;></div> 
+    
+  </div>
+</div>
+
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="textinput">Direccion:</label>  
+    
+    <input id="nombre" name="nombre"    style="border-color: #25acf9;"type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();">
+        <div name="text1" id="text1" style="color: red;" width : 50px;></div> 
+    
+  </div>
+
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-0 control-label" for="textinput">Telefono</label>  
+    
+    <input id="telefono" name="telefono"  style="border-color: #25acf9;" type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();">
+      
+       <div name="text3" id="text3" style="color: red;"></div>
+  </div>
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-0 control-label" for="textinput">Departamento:</label> </span></li><select name=""> 
+    <option>Antioqua</option>
+
+    <option>Cundinamarca</option>
+
+    <option>Valle</option>
+
+    </select
+
+
+    <input id="identificacion" name="identificacion" style="border-color: #25acf9;" type="text" placeholder="" class="form-control input-md" required="yes" onkeyup="validarFormulario2();">
+       <div name="text0" id="text0" style="color: red;"></div>
+      
+    
+  </div>
+
+  
+  </fieldset>
+  </form>
+
+
+</div>
+
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+  </html>
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tabla Datos Personales</title>
+</head>
+<body>
+  <style type="text/css">
+    table,th,td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: #f1f1ci;
+    }
+
+    th,td{
+      padding:px;
+
+    }
+    th{
+      text-align: left;
+    }
+
+  </style>
+<h1>Datos Personales</h1>
+<table style="width: 100%">
+
+  <tr>
+    <th>
+      Tipo Documento
+    </th>
+    <th>
+    Nùmero Documento
+    </th>
+    <th>
+    Nombres
+    </th>
+    <th>
+    Apellidos
+    </th>
+    <th>
+    Telèfono
+    </th>
+    <th>
+    Correo
+    </th>
+  <tr>
+  <tr>
+  <td>Cedula de Ciudadania</td>
+  <td>80070543</td>
+  <td>Luis Carlos</td>
+  <td>Lopez Vargas</td>
+  <td>3202345678</td>
+  <td>luis@gmail.com</td>
+  </tr>
+
+  <tr>
+  <td>Cedula de ciudadania</td>
+  <td>52915523</td>
+  <td>Adriana Patricia</td>
+  <td>Guzman Palacios</td>
+  <td>3162349054</td>
+  <td>apatik@hotmail.com</td>
+  </tr>
+  
+  <tr>
+  <td>Tarjeta de Identidad</td>
+  <td>1023465123</td>
+  <td>Carolina</td>
+  <td>Vargas</td>
+  <td>3108054387</td>
+  <td>carito@yahoo.es</td>
+  </tr>
+  
+  <tr>
+  <td>Registro Civil</td>
+  <td>10234567</td>
+  <td>Brayam</td>
+  <td>Duarte</td>
+  <td>3112347634</td>
+  <td>bduarte@outlook.es</td>
+  </tr>
+  
+  <tr>
+  <td>Cedula de Ciudadania</td>
+  <td>80070574</td>
+  <td>Wilson</td>
+  <td>Ostos</td>
+  <td>321449432</td>
+  <td>wost@gmail.com</td>
+  </tr>
+  
+  <tr>
+  <td>Cedula de Ciudadania</td>
+  <td>20697509d</td>
+  <td>Mariela Idme</td>
+  <td>Ramirez Miranda</td>
+  <td>2394760</td>
+  <td>idmeram@hotmail.com</td>
+  </tr>
+
+
+<tr>
+  <td>Cedula de Ciudadania</td>
+  <td>20697509d</td>
+  <td>Rubiela</td>
+  <td>Lozada</td>
+  <td>21294760</td>
+  <td>marian@hotmail.com</td>
+  </tr>
+  
+
+<tr>
+  <td>Tarjeta de Identidad</td>
+  <td>10234567</td>
+  <td>Laura Katerine</td>
+  <td> Miranda</td>
+  <td>2001234</td>
+  <td>itfham@hotmail.com</td>
+  </tr>
+  
+
+
+<tr>
+  <td>Cedula de Ciudadania</td>
+  <td>79467821</td>
+  <td>Kenet</td>
+  <td>Ramirez Cardenas</td>
+  <td>6060016</td>
+  <td>abxcam@yahoo.com</td>
+  </tr>
+  
+
+
+
+
+<tr>
+  <td>Tarjeta de Identidad</td>
+  <td>11234567</td>
+  <td>Stefania</td>
+  <td>Ruiz</td>
+  <td>2394760</td>
+  <td>stefy@hotmail.com</td>
+  </tr>
+  
+</table>
+</body>
+</html>
